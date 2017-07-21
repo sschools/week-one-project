@@ -21,7 +21,7 @@ header ul {
   list-style: none;
 }
 
-main ul {
+.home main ul {
   display: flex;
   list-style: none;
   flex-wrap: wrap;
@@ -81,12 +81,22 @@ h1 {
   margin-bottom: 10px;
 }
 
-h2 {
+.home h2 {
   text-align: center;
   font-weight: 200;
   font-size: 1.8em;
   color: #131511;
   margin-top: 0;
+}
+
+.about h2 {
+  text-align: left;
+  font-weight: 200;
+  font-size: 1.8em;
+  color: #131511;
+  margin: 0;
+  margin-top: 30px;
+  padding-left: 10px;
 }
 
 li h5 {
@@ -142,6 +152,18 @@ li h5 {
   background-image: url("images/product-7.jpg");
 }
 
+#birdhouse {
+  width: 20%;
+  margin:20px;
+  float:left;
+}
+
+#pots {
+  width: 20%;
+  margin:20px;
+  height:100px;
+}
+
 footer {
   display: block;
   margin: 0;
@@ -152,4 +174,57 @@ footer {
 
 footer h5 {
   font-weight: 200;
+}
+
+section {
+  width: 50%;
+  line-height: 2;
+  margin: 10px auto;
+  font-weight: 300;
+}
+
+section p {
+  padding: 10px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  font-size: 0.8em;
+  margin: 0 0 0 10px;
+  padding: 0 0 0 40px;
+  border-left: 1px solid #131511;
+}
+
+.room-to-grow {
+  background-image: url("images/background-3.jpg");
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div h1 {
+  color: #ffffff;
+}
+
+figure {
+}
+
+.facilities-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.facilities-paragraph {
+  
+}
+
+.caption {
+  font-size: 0.5em;
+}
+
+.about ul {
+  list-style: none;
 }
