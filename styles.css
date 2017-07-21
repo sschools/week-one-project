@@ -1,0 +1,48 @@
+body {
+  background-color: #ffffff;
+}
+
+header {
+  font-family: "Roboto",sans-serif;
+  text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.nav {
+  padding: 0 30px;
+  text-decoration: underline;
+}
+
+.logo {
+  height: 30px;
+  float: left;
+  padding-top: 10px;
+}
+
+main {
+  background-color: #F2F1E8;
+  font-family: "Merriweather",serif;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 3em;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 200;
+  
+}
