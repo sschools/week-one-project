@@ -1,10 +1,18 @@
 body {
-  background-color: #ffffff;
+  background-color: #F2F1E8;
+  margin:0;
 }
 
 header {
   font-family: "Roboto",sans-serif;
+  background-color: #ffffff;
   text-transform: uppercase;
+  display: block;
+  margin: 0;
+  padding: 6px;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 header ul {
@@ -19,9 +27,15 @@ main ul {
   flex-wrap: wrap;
 }
 
-main ul li {
+.top-row {
   background-size: cover;
   height: 300px;
+  margin: 10px;
+}
+
+.bottom-row {
+  background-size: cover;
+  height: 200px;
   margin: 10px;
 }
 
@@ -37,7 +51,15 @@ main ul li {
 
 .nav a {
   text-decoration: underline;
-  color: #131511;
+  color: #2B2F26;
+}
+
+.nav a:hover {
+  color: #CD5D67;
+}
+
+body.home a.home, body.about a.about, body.newsletter a.newsletter {
+  color: #968772;
 }
 
 .logo {
@@ -47,7 +69,7 @@ main ul li {
 }
 
 main {
-  background-color: #F2F1E8;
+  margin-top: 100px;
   font-family: "Merriweather",serif;
 }
 
@@ -56,15 +78,18 @@ h1 {
   font-size: 3em;
   text-align: center;
   color: #131511;
+  margin-bottom: 10px;
 }
 
 h2 {
   text-align: center;
   font-weight: 200;
+  font-size: 1.8em;
   color: #131511;
+  margin-top: 0;
 }
 
-h5 {
+li h5 {
   display: inline;
   background-color: #131511;
   color: #F2F1E8;
@@ -72,7 +97,14 @@ h5 {
   padding: 10px;
   width: min-content;
   position:relative;
+}
+
+.top-row h5 {
   top: 250px;
+}
+
+.bottom-row h5 {
+  top: 150px;
 }
 
 #product1 {
@@ -88,4 +120,36 @@ h5 {
 #product3 {
   flex-basis: 200px;
   background-image: url("images/product-3.jpg");
+}
+
+#product4 {
+  flex-basis: 190px;
+  background-image: url("images/product-4.jpg");
+}
+
+#product5 {
+  flex-basis: 190px;
+  background-image: url("images/product-5.jpg");
+}
+
+#product6 {
+  flex-basis: 500px;
+  background-image: url("images/product-6.jpg");
+}
+
+#product7 {
+  flex-basis: 200px;
+  background-image: url("images/product-7.jpg");
+}
+
+footer {
+  display: block;
+  margin: 0;
+  padding: 10px 40px;
+  background-color: #131511;
+  color: #F2F1E8;
+}
+
+footer h5 {
+  font-weight: 200;
 }
