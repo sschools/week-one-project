@@ -292,3 +292,39 @@ body.newsletter {
   text-align: center;
   font-weight: 100;
 }
+
+#signupbox h2 {
+  font-size: 1.6em;
+}
+
+input {
+  border:0;
+}
+
+.name,.email {
+  margin: 20px 0;
+  padding: 5px 0;
+  color: #968772;
+  font-size: 1.2em;
+  border-bottom: 2px solid #968772;
+}
+
+.inputarea {
+  font-family: "Roboto",sans-serif;
+}
+
+#button {
+  font-weight: 400;
+  color: #F2F1E8;
+  background-color: #968772;
+  padding: 15px 30px;
+}
+
+#button:hover {
+  background-color: #967343;
+  color: #FFFFFF;
+}
+
+#button-line {
+  margin: 40px 0 25px;
+}
