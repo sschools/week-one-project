@@ -301,6 +301,11 @@ input {
   border:0;
 }
 
+input:focus {
+  border:0;
+  border-bottom: 2px solid #967343;
+}
+
 .name,.email {
   margin: 20px 0;
   padding: 5px 0;
