@@ -159,9 +159,10 @@ li h5 {
 }
 
 #pots {
-  width: 20%;
-  margin:20px;
-  height:100px;
+  width: 100%;
+  margin:0;
+  margin-top: 20px;
+  height: 100px;
 }
 
 footer {
@@ -210,15 +211,18 @@ div h1 {
 }
 
 figure {
+  flex-basis: 300px;
+  margin:0;
 }
 
 .facilities-content {
   display: flex;
-  justify-content: space-between;
 }
 
 .facilities-paragraph {
-  
+  flex-basis: 1100px;
+  margin: 0;
+  margin-right: 10px;
 }
 
 .caption {
