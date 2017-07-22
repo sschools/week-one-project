@@ -232,3 +232,38 @@ figure {
 .about ul {
   list-style: none;
 }
+
+table {
+  border-spacing: 0;
+  margin-bottom: 40px;
+}
+
+th {
+  border:1px solid #131511;
+  margin:0;
+  padding: 5px 10px;
+  font-weight: 100;
+}
+
+td {
+  border:1px solid #131511;
+  border-top: 0;
+  margin:0;
+  padding: 5px 10px;
+}
+
+th:first-child,th:nth-child(2),td:first-child,td:nth-child(2) {
+  border-right:0;
+}
+
+#row1, #row3 {
+  background-color: #F2E3D0;
+}
+
+.intro a {
+  color: #968772;
+}
+
+.intro a:hover {
+  color: #967343;
+}
