@@ -58,6 +58,10 @@ header ul {
   color: #CD5D67;
 }
 
+a .logo:hover {
+  
+}
+
 body.home a.home, body.about a.about, body.newsletter a.newsletter {
   color: #968772;
 }
@@ -302,7 +306,6 @@ input {
 }
 
 input:focus {
-  border:0;
   border-bottom: 2px solid #967343;
 }
 
