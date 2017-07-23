@@ -13,6 +13,7 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
+  box-shadow: 0 5px 5px #999999;
 }
 
 header ul {
@@ -55,11 +56,12 @@ header ul {
 }
 
 .nav a:hover {
+  transition: 1s ease;
   color: #CD5D67;
 }
 
 a .logo:hover {
-  
+
 }
 
 body.home a.home, body.about a.about, body.newsletter a.newsletter {
@@ -203,6 +205,7 @@ blockquote {
 }
 
 .room-to-grow {
+  background-attachment: fixed;
   background-image: url("images/background-3.jpg");
   background-size: cover;
   height: 300px;
@@ -270,6 +273,7 @@ th:first-child,th:nth-child(2),td:first-child,td:nth-child(2) {
 }
 
 .intro a:hover {
+  transition: 1s ease;
   color: #967343;
 }
 
@@ -306,6 +310,7 @@ input {
 }
 
 input:focus {
+  transition: 1s ease;
   border-bottom: 2px solid #967343;
 }
 
@@ -321,7 +326,7 @@ input:focus {
   font-family: "Roboto",sans-serif;
 }
 
-#button {
+#signupButton {
   font-weight: 400;
   color: #F2F1E8;
   background-color: #968772;
