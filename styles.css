@@ -60,10 +60,6 @@ header ul {
   color: #CD5D67;
 }
 
-a .logo:hover {
-
-}
-
 body.home a.home, body.about a.about, body.newsletter a.newsletter {
   color: #968772;
 }
