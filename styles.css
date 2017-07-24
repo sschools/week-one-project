@@ -333,7 +333,8 @@ input:focus {
   padding: 15px 30px;
 }
 
-#button:hover {
+#signupButton:hover {
+  transition: 1s ease;
   background-color: #967343;
   color: #FFFFFF;
 }
