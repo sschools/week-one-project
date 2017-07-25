@@ -23,9 +23,13 @@ header ul {
 }
 
 .home main ul {
-  display: flex;
+  display: block;
   list-style: none;
-  flex-wrap: wrap;
+}
+
+#first-row, #second-row {
+  display: flex;
+  flex-direction: row;
 }
 
 .top-row {
